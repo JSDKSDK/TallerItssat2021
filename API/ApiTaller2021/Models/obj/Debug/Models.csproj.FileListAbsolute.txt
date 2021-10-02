@@ -1,0 +1,6 @@
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\Models\bin\Debug\Models.dll
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\Models\bin\Debug\Models.pdb
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\Models\obj\Debug\Models.dll
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\Models\obj\Debug\Models.pdb

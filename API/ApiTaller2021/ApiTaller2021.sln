@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaller2021", "ApiTaller2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{66388716-1584-41A5-9A0A-DC7181279A32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{C3E94344-E1E2-4E69-BD4B-7202DCD44069}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{66388716-1584-41A5-9A0A-DC7181279A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66388716-1584-41A5-9A0A-DC7181279A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66388716-1584-41A5-9A0A-DC7181279A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E94344-E1E2-4E69-BD4B-7202DCD44069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E94344-E1E2-4E69-BD4B-7202DCD44069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E94344-E1E2-4E69-BD4B-7202DCD44069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E94344-E1E2-4E69-BD4B-7202DCD44069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
