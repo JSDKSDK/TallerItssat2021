@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Cors;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ApiTaller2021
 {
@@ -27,7 +28,9 @@ namespace ApiTaller2021
             );
 
 
-            //Codigo para cors
+            // Codigo para CORS
+            var corsAttr = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsAttr);
         }
     }
 }

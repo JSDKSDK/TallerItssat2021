@@ -1,3 +1,43 @@
-.texto{
-    color: yellow;
+header {
+    position: fixed;
+    left: 12%;/* alinear a la izquierda 240px que son los que tiene sidebar*/
+    top: 0;
+    z-index: 100;
+    width: calc(100% - 12%);
+    background-color: #fff;
+    height: 60px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    transition: left 500ms;/* para poder ocultar el menu*/
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper input{
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    height: 38px;
+}
+
+
+.user-wrapper{/*estilos del avatar en la clase usuario en la barra superior*/
+    display: flex;
+    align-items: center;
+}
+
+.user-wrapper img {/*estilos de la imagen del avatar en la clase usario*/
+    border-radius: 50%; /*para dejar redonda la imagen del avatar*/
+    margin-right: 1rem;
+}
+
+.user-wrapper small {/*estilos del del cargo del usiario en la clase usario en la barra superior*/
+    display: inline-block;
+    color: var(--text-grey);
 }

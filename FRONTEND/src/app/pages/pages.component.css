@@ -10,40 +10,44 @@
 }
 
 .menu{
-    width: calc(100% - 75%);
+    height: 100%;
+    width: 12%;
     position: fixed;
     left: 0;
     top: 0;
-    height: 100%;
-    background-color: var(--main-color);
     z-index: 100;
-    transition: width 300ms;
-    background-color: bisque;
+    background-color: var(--main-color);
+    color: #fff;
+    overflow-y: auto;
+    transition: width 500ms;/*esta transion se ocupar apar acoutar el menu*/
 }
 
 
 .navbar  {
-    background-color: rgb(75, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1.5rem;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     position: fixed;
-    left: 25%;
-    width: calc(100% - 25%);
+    left: 14%;/* alinear a la izquierda 240px que son los que tiene sidebar*/
     top: 0;
     z-index: 100;
-    transition: left  300ms;
-    height: 8rem;
+    width: calc(100% - 12%);
+    background-color: #fff;
+    height: 60px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    transition: left 500ms;/* para poder ocultar el menu*/
 }
 
 
 .main-content{
-    transition: margin-left 300ms;
-    margin-left: 25%;/*---*/
+    position: relative;
+    margin-left: 12%;
+    transition: margin-left 500ms;/*esta transion se ocupar apar acoutar el menu*/
 }
 .main {
-    margin-top: 115px;
-    padding: 2rem 1.5rem;
-    background-color: #133e69;
+    margin-top: 60px;
+    background-color: #f1f5f9;
+    min-height: 90vh;/*tamaño del menu en color*/
+    padding: 1rem 3rem;
 }

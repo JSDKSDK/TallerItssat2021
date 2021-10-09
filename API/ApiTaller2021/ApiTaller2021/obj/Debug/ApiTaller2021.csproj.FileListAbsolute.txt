@@ -243,7 +243,6 @@ C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\System.Xml.XPa
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\System.Xml.XPath.XDocument.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Antlr3.Runtime.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\DAO.dll
-C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Cors.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Http.Abstractions.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Http.Extensions.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Http.Features.dll
@@ -277,7 +276,6 @@ C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\WebGrease.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\MySqlConnector.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\System.Threading.Tasks.Extensions.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\DAO.pdb
-C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Cors.xml
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Http.Abstractions.xml
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Http.Extensions.xml
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Microsoft.AspNetCore.Http.Features.xml
@@ -325,3 +323,6 @@ C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\obj\Debug\ApiTalle
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\obj\Debug\ApiTaller2021.pdb
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Models.dll
 C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\Models.pdb
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\System.Web.Cors.dll
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\System.Web.Http.Cors.dll
+C:\Develop\Taller_ITSSAT_2021\API\ApiTaller2021\ApiTaller2021\bin\System.Web.Http.Cors.xml

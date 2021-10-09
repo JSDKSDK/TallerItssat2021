@@ -1,7 +1,248 @@
-<div>
-    <div>
-    <p>hola mundo</p>
+<main>
+    <div class="cards"><!--Inicio de las tarjetas -->
+        <div class="card-single"> <!--Inicio tarjeta cliente -->
+            <div>
+                <h1>54</h1>
+                <span >Usuarios</span>
+            </div>
+            <div>
+                <span class="las la-users"></span>
+            </div>
+        </div><!--termino tarjeta cliente -->
 
-    </div>
-</div>
+        <div class="card-single"> <!--Inicio tarjeta proyecto -->
+            <div>
+                <h1>{{countmedicos}}</h1>
+                <span>Doctores</span>
+            </div>
+            <div>
+                <span class="las la-stethoscope"></span>
+            </div>
+        </div><!--Termino tarjeta proyecto -->
 
+        <div class="card-single"> <!--Inicio tarjeta orden o pedido -->
+            <div>
+                <h1>124</h1>
+                <span>Pacientes</span>
+            </div>
+            <div>
+                <span class="lab las la-user-injured"></span>
+            </div>
+        </div><!--Termino tarjeta orden o pedido -->
+
+        <div class="card-single"> <!--Inicio tarjeta de ingreso -->
+            <div>
+                <h1>10</h1>
+                <span>Nuevas Consultas</span>
+            </div>
+            <div>
+                <span class="las la-clipboard-list"></span>
+            </div>
+        </div><!--termina tarjeta de ingreso -->
+    </div><!--Termine de las tarjetas -->
+
+    <div class="recent-grid"><!--Inicia clase que contiene proyectos recientes y nuevos clientes-->
+        <div class="projects"><!--Inicia clase proyectos recientes -->
+            <div class="card"><!--Inicia tarjeta de tabla proyectos-->
+                <div class="card-header"><!--Inicia encabezado proyectos -->
+                    <h3>Pacientes Recientes</h3>
+
+                    <button>See alls <span class="las la-arrow-right">
+                    </span></button>
+                </div><!--Termina encabezado proyectos -->
+
+                 <div class="card-body"><!--Inicia clase que contiene la tabla ysu contenido -->
+                        <div class="table-reponsive"><!--Inicia clase tabla -->
+                            <table width="100%"><!--Inicio de la tabla -->
+                                <thead><!--Inicio nombre las columnas de la tabla -->
+                                    <tr><!--Inicio de la tabla -->
+                                        <td>Nombre</td>
+                                        <td>Departamento</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead><!--termino nombre las columnas de la tabla -->
+                                <tbody><!--Inicia las filas de la tabla -->
+                                    <tr>
+                                        <td>Juan Perez</td>
+                                        <td>Cardiología</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            Intermedio
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maria Hernandez</td>
+                                        <td>Pediatría</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            Bueno
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Guadalupe Gonzalez</td>
+                                        <td>Neurología</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            Malo
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Juan Perez</td>
+                                        <td>Cardiología</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            Intermedio
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maria Hernandez</td>
+                                        <td>Pediatría</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            Bueno
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Juan Perez</td>
+                                        <td>Cardiología</td>
+                                        <td>
+                                            <span class="status purple"></span>
+                                            Intermedio
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maria Hernandez</td>
+                                        <td>Pediatría</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            Bueno
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Guadalupe Gonzalez</td>
+                                        <td>Neurología</td>
+                                        <td>
+                                            <span class="status orange"></span>
+                                            Malo
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maria Hernandez</td>
+                                        <td>Pediatría</td>
+                                        <td>
+                                            <span class="status pink"></span>
+                                            Bueno
+                                        </td>
+                                    </tr>
+
+                                </tbody><!--Termina las filas de la tabla -->
+                            </table><!--Termino de la tabla -->
+                        </div><!--Termina clase tabla -->
+                </div><!--Termina clase que contiene la tabla ysu contenido -->
+            </div><!--Termina tarjeta de tabla proyectos-->
+        </div><!--Termina clase proyectos recientes-->
+
+        <div class="customers"><!--Inicia clase cliente-->
+            <div class="card"><!--Inicia tarjeta de nuevo cliente -->
+                <div class="card-header"><!--Inicia clase para titulo de la tarjeta de nuevo cliente-->
+                    <h3>Nuevos Pacientes</h3>
+
+                    <button>See alls <span class="las la-arrow-right">
+                    </span></button>
+                </div><!--Termina clase para titulo de la tarjeta de nuevo cliente-->
+
+                <div class="card-body"><!--Inicia clase para cuerpo de la tarjeta de nuevo cliente-->
+                    <div class="customer"><!--Inicia clase con datos de cliente nuevo-->
+                        <div class="info"><!--Inicia clase de informacion del cliente-->
+                            <img src="/assets/img/avatar.png" width="40px" height="40px" alt="">
+                            <div>
+                                <h4>Perla Juarez</h4>
+                                <small>Malestar General</small>
+                            </div>
+                        </div><!--Termina clase de informacion del cliente-->
+                        <div class="contact"><!--Inicia clase de contacto del cliente-->
+                            <span class="las la-user-circle"></span>
+                            <span class="las la-comment"></span>
+                            <span class="las la-phone"></span>
+                        </div><!--Termina clase de contacto del cliente-->
+                    </div><!--Termina clase con datos de cliente nuevo-->
+                    <div class="customer"><!--Inicia clase  con datod cliente nuevo-->
+                        <div class="info">
+                            <img src="/assets/img/avatar.png" width="40px" height="40px" alt="">
+                            <div>
+                                <h4>Ricardo Ortiz</h4>
+                                <small>Intoxicación</small>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <span class="las la-user-circle"></span>
+                            <span class="las la-comment"></span>
+                            <span class="las la-phone"></span>
+                        </div>
+                    </div><!--Termina clase  con datod cliente nuevo-->
+                    <div class="customer"><!--Inicia clase  con datod cliente nuevo-->
+                        <div class="info">
+                            <img src="/assets/img/avatar.png" width="40px" height="40px" alt="">
+                            <div>
+                                <h4>Diana Fernandez</h4>
+                                <small>Demencia</small>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <span class="las la-user-circle"></span>
+                            <span class="las la-comment"></span>
+                            <span class="las la-phone"></span>
+                        </div>
+                    </div><!--Termina clase  con datod cliente nuevo-->
+                    <div class="customer"><!--Inicia clase  con datod cliente nuevo-->
+                        <div class="info">
+                            <img src="/assets/img/avatar.png" width="40px" height="40px" alt="">
+                            <div>
+                                <h4>Omar López</h4>
+                                <small>Malestar General</small>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <span class="las la-user-circle"></span>
+                            <span class="las la-comment"></span>
+                            <span class="las la-phone"></span>
+                        </div>
+                    </div><!--Termina clase  con datod cliente nuevo-->
+                    <div class="customer"><!--Inicia clase  con datod cliente nuevo-->
+                        <div class="info">
+                            <img src="/assets/img/avatar.png" width="40px" height="40px" alt="">
+                            <div>
+                                <h4>Juana Perez</h4>
+                                <small>Demencia</small>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <span class="las la-user-circle"></span>
+                            <span class="las la-comment"></span>
+                            <span class="las la-phone"></span>
+                        </div>
+                    </div><!--Termina clase  con datod cliente nuevo-->
+                    <div class="customer"><!--Inicia clase  con datod cliente nuevo-->
+                        <div class="info">
+                            <img src="/assets/img/avatar.png" width="40px" height="40px" alt="">
+                            <div>
+                                <h4>Julia Perez</h4>
+                                <small>Malestar General</small>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <span class="las la-user-circle"></span>
+                            <span class="las la-comment"></span>
+                            <span class="las la-phone"></span>
+                        </div>
+                    </div><!--Termina clase  con datod cliente nuevo-->
+                    
+                </div><!--Termina clase para cuerpo de la tarjeta de nuevo cliente-->
+            </div><!--Termina tarjeta nuevo cliente-->
+        </div><!--Termina clase cliente-->
+    </div><!--Termina clase que contiene proyectos recientes y nuevos clientes-->
+
+    
+   
+
+</main>

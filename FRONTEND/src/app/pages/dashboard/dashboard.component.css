@@ -1,0 +1,165 @@
+
+.main-content {
+    position: relative;
+    margin-left: 12%;
+    transition: margin-left 500ms;/*esta transion se ocupar apar acoutar el menu*/
+}
+
+main {
+    margin-top: 60px;
+    background-color: #f1f5f9;
+    min-height: 90vh;/*tamaño del menu en color*/
+    padding: 1rem 3rem;
+}
+
+.cards {/*estilos de las las tarjetas*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.card-single {/*estilos en cada  tarjetas*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-single div:last-child span {/*estilos de los iconos en cada  tarjetas*/
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.card-single div:first-child span {/*estilos del color en las frases de las tarjetas*/
+    color: var(--text-grey);
+}
+
+.card-single:last-child {/*estilos del color de fondo de la tarjetas income o ingreso*/
+    background-color: var(--main-color);
+}
+
+.card-single:last-child h1,
+.card-single:last-child  div:first-child span,
+.card-single:last-child  div:last-child span {/*estilos de color de icono y frase en la tarjeta income o ingreso*/
+    color: #fff;
+}
+
+.recent-grid{/*estilos de clase que contiene proyectos recientes y nuevos clientes*/
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 65% auto;
+}
+
+.card{/*estilos de tarjeta nuevos clientes*/
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-header {/* estitlo margen titulo de la tarjeta de nuevo cliente*/
+    padding: 1rem;
+}
+
+.card-header {/* estitlo del titulo de la tarjeta de nuevo cliente*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.card-header button{/* estitlo boton see alls  tarjeta de nuevo cliente y proyectos recientes*/
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--main-color);
+}
+
+
+table {/* estitlo del borde de la tabla de proyectos recientes*/
+    border-collapse: collapse;
+}
+
+thead tr {/* estitlo del borde de la en la fila que lleva el titulo de las columnas en tabla de proyectos recientes*/
+    border-top:  1px solid #f0f0f0;
+    border-bottom:  2px solid #f0f0f0;
+}
+
+thead td{/* estitlo del titulo de las columnas en tabla de proyectos recientes*/
+    font-weight: 700;
+} 
+
+td {/* estitlo de la informacion que lleva cada fila en tabla de proyectos recientes*/
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: #222;
+}
+
+td .status {/* estitlo de la columna status a en tabla de proyectos recientes*/
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+tr td:last-child{/* estitlo para que cada fila se encuentre centra en tabla de proyectos recientes*/
+    display: flex;
+    align-items: center;
+}
+
+.status.purple{/* estitlo del color de status a en tabla de proyectos recientes*/
+    background-color: yellow;
+}
+
+.status.pink {/* estitlo del color de status a en tabla de proyectos recientes*/
+    background-color: green;
+}
+
+.status.orange {/* estitlo del color de status a en tabla de proyectos recientes*/
+    background-color:red;
+}
+
+.table-responsive {/* estitlo de la clase tabla responsiva en la  tabla de proyectos recientes*/
+    width: 100%;
+    overflow-x: auto;
+}
+
+.customer{/* estitlo de la clase cliente de la tarjeta cliente nuevo*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .7rem;
+}
+
+.info {/* estitlo del informacion del cliente nuevo*/
+    display: flex;
+    align-items: center;
+}
+
+.info img{/* estitlo de la imagen del cliente nuevo*/
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.info  h4{/* estitlo color tamaño del nombre  del cliente nuevo*/
+    font-size: .8rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.info small{/* estitlo cargo  del cliente nuevo*/
+    font-weight: 600;
+    color: var(--text-grey);
+}
+
+.contact span{/* estitlo iconos de contacto del cliente nuevo*/
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: .5rem;
+    color: var(--main-color);
+}
