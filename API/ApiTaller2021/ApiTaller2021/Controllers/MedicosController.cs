@@ -25,6 +25,7 @@ namespace ApiTaller2021.Controllers
           
 
             string queryusuario = "SELECT COUNT(FIIDDOCTOR) DOCTORES from hospitales.doctores;";
+  
 
             if (dbcon.OpenConnection() == true)
             {
@@ -35,8 +36,6 @@ namespace ApiTaller2021.Controllers
                 while (dataReader.Read())
                 {
                     DOCTORES =Convert.ToInt32(dataReader["DOCTORES"]);
-
-                  
 
                 }
 
